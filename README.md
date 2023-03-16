@@ -18,10 +18,17 @@ Notes for the workshop:
 * Connections are as follows:
 
 Pro Trinket - (on back) to battery ground
+
 Pro Trinket + (on back) to battery positive
+
 DotStar LED strip G to Pro Trinket G
+
 DotStar LED strip 5V to Pro Trinket BAT+
+
 DotStar LED strip data to Pro Trinket 11
+
 DotStar LED strip clock to Pro Trinket 13
+
 Optional tactile mode selector button between Pro Trinket 3 (TX) and G
+
 Optional vibration sensor between Pro Trinket 2 and G
