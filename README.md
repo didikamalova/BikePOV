@@ -14,21 +14,18 @@ Notes for the workshop:
 * Add the Adafruit Board Support Package
 
   Paste in https://adafruit.github.io/arduino-board-index/package_adafruit_index.json to the 'Additional Board Manager URLs" in Arduino IDE.
+
   
-* Connections are as follows:
+Image conversion (optional):
 
-  Pro Trinket - (on back) to battery ground
+1. Install the Python Image Library (PIL):
+  https://www.geeksforgeeks.org/how-to-install-pil-on-macos/
 
-  Pro Trinket + (on back) to battery positive
+2. Export your image as a GIF file that is exactly 32 pixels high.
 
-  DotStar LED strip G to Pro Trinket G
+3. Use the following command: 
 
-  DotStar LED strip 5V to Pro Trinket BAT+
+python convert.py [YOUR FILENAME].gif > graphics.h
 
-  DotStar LED strip data to Pro Trinket 11
+4. Copy the color palette with the bitmap into your main .ino file.
 
-  DotStar LED strip clock to Pro Trinket 13
-
-  Optional tactile mode selector button between Pro Trinket 3 (TX) and G
-
-  Optional vibration sensor between Pro Trinket 2 and G
