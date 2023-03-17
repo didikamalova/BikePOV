@@ -1,5 +1,8 @@
 ## Adafruit Kinetic_POV
 
+TUTORIAL LINK:
+https://learn.adafruit.com/bike-wheel-pov-display/overview
+
 Software related to DotStar LED persistence-of-vision performance items -- initially the Trinket-based "Genesis Poi" and then additional POV projects.
 
 This code was formerly at https://github.com/adafruit/Kinetic_POV - this has now been archived.
